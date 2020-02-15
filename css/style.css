@@ -1,0 +1,189 @@
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background:#fff;
+	color:#3f3f3f;
+
+}
+*{
+	box-sizing: border-box;
+
+}
+
+header{background: #fff;}
+
+header .logo img{
+	display: inline-block;
+	margin: 0px auto;
+	padding: 10px;
+	max-width: 200px;
+}
+.menu
+{
+	display: inline-block;
+	float: right;
+}
+ul,ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu li
+{
+	float: left;
+}
+.menu li a{
+	padding: 27px 17px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: #333;
+	font-weight: 500px;
+	border: 0px;
+	text-transform: uppercase;
+	line-height: 1;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+}
+.menu li:hover a{
+	background: #f3542d;
+	color: white;
+
+}
+.slider{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: 500px;
+
+}
+.slider img{
+	display: block;
+	position: relative;
+	z-index: 1;
+	max-height: 600px;
+	width: 100%;
+	border: 0;
+
+
+}
+.content h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.content-box{
+	margin-bottom: 30px: 
+}
+.box-1{
+	min-height: 380px;
+	padding-bottom: 30px;
+}
+.header{
+	text-align: center;
+	margin: 60px auto 50px;
+}
+.heading{
+	background: #000;
+	border-right: 6px solid #f3542d;
+	height: 60px;
+	color: #fff;
+	display: inline-block;
+	font-weight: normal;
+	font-size: 36px;
+	padding: 15px 15px;
+	position: relative;
+	transform: rotate(0deg);
+	transform: flat;
+	
+}
+.heading span{
+	display: block;
+	transform: rotate(0deg);
+	transform-style: flat;
+
+}
+.content-box.item{
+	padding: 10px 0;
+
+
+}
+.zoom{
+	position:absolute;
+	overflow:hidden;
+	display: inline-block;
+	width: 300px !important;
+	height: 200px;
+}
+.content-box.item img{
+	display:inline-block; 
+	width: 100% !important;
+	height: 50px !important;
+
+	transition: all 0.5s ease;
+}
+.item-content{
+	position: relative;
+	height: 200px;
+	width: 300px;
+}
+
+.content-box .item{
+	padding: 10px 0;	
+}
+.zoom
+{
+position:relative;
+overflow: hidden;
+display: inline-block;
+width: 72% !important;	
+}
+
+.content-box .item img{
+	display: block;
+	width: 100% !important;
+	height: auto;
+	transition: all 0.5s ease;
+
+}
+
+.content-box .item .item-content{
+	background: #fff;
+	padding: 25px;
+	border: 1px solid #ddd;
+
+
+}
+.content-box .item span{
+	font-size: 15px;
+	font-weight:500px;
+	color: #000; 
+}
+
+img,div,span{
+	vertical-align: top;
+}
+
+p{
+	color: #777; margin:10px 0; 
+}
+
+a{color: #ff970b; text-decoration: none;vertical-align: top;}
+a:hover{
+text-decoration: underline;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
